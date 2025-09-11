@@ -1,4 +1,4 @@
-package elementos_basicos
+package practicas
 
 fun main() {
     print("Introduce tu nombre: ")
