@@ -4,11 +4,11 @@ fun main() {
     // 1. Crear un DoubleArray para 5 notas
     val notas = DoubleArray(5)
 
-    // 2. Pedir al usuario que ingrese las 5 notas
+    // 2. Pedir al usuario que introduzca las 5 notas
     println("Introduce 5 notas:")
     for (i in 0 until notas.size) {
         print("Nota ${i + 1}: ")
-        notas[i] = readLine()!!.toDouble()
+        notas[i] = (readLine() ?:"0.0").toDouble()
     }
 
     // 3. Calcular la suma de todas las notas
