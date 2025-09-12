@@ -1,7 +1,7 @@
 package elementos_basicos
 
 fun main() {
-
+/*
     // Crear Arrays
     val income = arrayOf<Double>(
         0.5, 2.5, 4.0, 5.0,
@@ -9,7 +9,11 @@ fun main() {
         5.0, 6.4, 4.0, 9.1
     )
     val income2 = arrayOf(0.5, 2.5, 4.0, 5.0)
+    val enteros = IntArray(4)
+    val doubles = DoubleArray(4)
 
+*/
+/*
     // Constructor Array
     val negativeNumbers = Array(10) { -(it+1) }
     val negativeNumbers2 = Array(10) { i:Int -> -(i+1) }
@@ -43,6 +47,8 @@ fun main() {
     planets.forEachIndexed { i,v ->
         println("forEachIndexed -->  $v está en la posición ${i+1}")
     }
+
+ */
 }
 
 
