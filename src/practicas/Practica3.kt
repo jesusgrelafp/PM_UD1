@@ -29,7 +29,7 @@ fun main() {
     }
 
     // 6. Mostrar resultados
-    println("Notas ingresadas: ")
+    println("Notas introducidas: ")
     for (i in 0 until notas.size) {
         println("Nota ${i + 1}: ${notas[i]}")
     }
