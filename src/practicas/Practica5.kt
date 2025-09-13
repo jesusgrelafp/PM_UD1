@@ -1,6 +1,4 @@
 package practicas
-import CalculadoraNullable
-
 fun main() {
 
     print("Introduzca el primer entero: ")
