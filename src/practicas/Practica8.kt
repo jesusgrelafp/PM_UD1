@@ -8,12 +8,10 @@ fun main() {
         if (i % 3 == 0) {
             continue // saltar múltiplos de 3
         }
-
         if (i == 20) {
             println("Se alcanzó el 20, fin del bucle.")
             break // salir del bucle
         }
-
         println(i)
     }
 }
