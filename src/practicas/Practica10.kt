@@ -17,7 +17,8 @@ fun main() {
     println("resta = ${calculadora.restar(a, b)}")
     println("multiplica = ${calculadora.multiplicar(a, b)}")
     try {
-        println("divide = ${calculadora.dividir(a, b)}")
+        val resultado : Double = calculadora.dividir (a, b)
+        println("divide $a / $b = ${"%.2f".format(resultado)}")   // Se formatea el valor double a 2 decimales
     } catch (e: IllegalArgumentException) {
         println("Error: ${e.message}")
     }

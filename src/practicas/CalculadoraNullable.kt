@@ -17,9 +17,9 @@ class CalculadoraNullable {
     }
 
     // División
-    fun dividir(a: Int?, b: Int?): Int {
+    fun dividir(a: Int?, b: Int?): Double {
         val divisor = b ?: 0
         if (divisor == 0) throw IllegalArgumentException("No se puede dividir por cero o null")
-        return (a ?: 0) / divisor
+        return (a ?: 0).toDouble() / divisor.toDouble()
     }
 }

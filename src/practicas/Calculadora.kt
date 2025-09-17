@@ -16,8 +16,8 @@ class Calculadora {
     }
 
     // División
-    fun dividir(a: Int, b: Int): Int {
+    fun dividir(a: Int, b: Int): Double {
         if (b == 0) throw IllegalArgumentException("No se puede dividir por cero")
-        return a / b
+        return a.toDouble() / b.toDouble()
     }
 }
