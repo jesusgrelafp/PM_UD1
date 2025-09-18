@@ -22,4 +22,5 @@ fun main() {
     } catch (e: IllegalArgumentException) {
         println("Error: ${e.message}")
     }
+    
 }
