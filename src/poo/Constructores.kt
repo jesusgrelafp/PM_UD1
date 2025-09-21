@@ -6,7 +6,7 @@ import java.util.UUID
 class Weapon(val attack: Int, val speed: Double)
 
 // Con bloque de inicialización
-class Weapon2(attack: Int, speed: Double) {
+open class Weapon2(attack: Int, speed: Double) {
     val attack: Int
     val speed: Double
 
