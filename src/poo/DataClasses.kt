@@ -29,7 +29,7 @@ fun main() {
     println("Rock1.depth = ${rock1.component3()}")
     println("Rock1.variation = ${rock1.component4()}")
 
-    val (witdh, height) = Rock(15, 30, 40)
-    println("Desestructurando a width($witdh) y height($height)")
+    val (a, b) = Rock(15, 30, 40)
+    println("Desestructurando a width($a) y height($b)")
 
 }
