@@ -27,7 +27,7 @@ class GestorUsuarios {
             println("No hay usuarios registrados.")
         } else {
             println("Lista de usuarios registrados:")
-            usuarios.forEach { println(" - ${it.username} (${it.email})") }
+            usuarios.forEach { (username, email) -> println(" - ${username} (${email})") }
         }
     }
 
